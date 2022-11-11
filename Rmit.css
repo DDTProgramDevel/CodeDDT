@@ -1,0 +1,866 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 4600px;
+}
+.container{
+    height: 3550px;
+    background-color: rgb(234, 234, 219);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
+.section1{
+    width: 100%;
+    height: 1350px;
+    background-color: beige;
+}
+header{
+    display: flex;
+    position:absolute;
+    z-index: 12;
+}
+.div1 img{
+    width: 150px;
+    height: 100px;
+    margin-left: 130px;
+}
+
+/*----------------------------------------------------*/
+/*----------------------SECTION1----------------------*/
+/*----------------------------------------------------*/
+
+
+/*--------------------------------DIV2--------------------*/
+.main-menu{
+    display: flex;
+    padding-top: 27px;
+}
+
+.main-menu .li2 a:hover,
+.main-menu .li2 a:hover{
+    border-bottom: 3px solid gray;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+}
+.li1 a:hover,
+.li1 a:active{
+    border-bottom: 3px solid rgb(40, 15, 15);
+    background-color: rgb(247, 247, 247);
+}
+
+.div2 li{
+    list-style: none;
+}
+.div2 .li1>a{
+    padding: 22px 0px 17px 1px;
+}
+.div2 .li2>a{
+    padding: 22px 0px 17px 1px;
+}
+.div2 li a{
+    padding:5px;
+    text-decoration: none;
+    color: rgb(3, 3, 23);
+}
+/*-----------------------Lam sub-menu----------------*/
+.li1{
+    padding-left: 20px;
+    padding-right: 120px;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative; 
+}
+.li1 a{
+    padding-right: 50px;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color: aliceblue;
+    padding: 18px 0px;
+    margin-top: 13px;
+    border: 1px solid rgb(93, 90, 90);
+    width: 200px;
+
+    display: none;/*Làm ẩn đi sub-menu*/
+}
+.main-menu li:hover ul.sub-menu,
+.main-menu li:active ul.sub-menu{
+    display: block;/*Làm xuất hiện menu được ẩn lúc trc*/
+}
+.sub-menu li{
+    padding: 8px 15px 15px 12px;
+}
+.sub-menu li a{
+    padding: 8px 60px 5px 0px;
+    /* padding: 8px 32px; */
+    font-weight: 300;
+    border-bottom: 1px solid rgb(93, 90, 90);
+}
+.main-menu ul.sub-menu li:hover a,
+.main-menu ul.sub-menu li:active a{
+    cursor: pointer;
+    background-color: rgb(216, 219, 231);
+}
+
+.li2{
+    font-size: 18px;
+    padding-left: 20px;
+}
+.li3{
+    padding-left: 40px;
+}
+
+.li3 a:hover{
+    background-color: rgb(205, 50, 63);
+}
+.li4{
+    padding-left: 40px;
+}
+
+/*----------------------DIV3----------------------*/
+
+.div3-1{
+    position: relative;
+    z-index: 1;
+}
+.div3-1 video{
+    padding-top: 68px;
+    width: 100%;
+    height: 100vh;
+}
+
+/*----------------------DIV3-2-------------------*/
+.div3-2{
+    position: absolute;
+    color: aliceblue;
+    top: 600px;
+    left: 120px;
+}
+.div3-2 h2{
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.div3-2 .div3-3{
+    font-size: 20px;
+}
+.div3-2 .div3-4{
+    padding-top: 10px;
+}
+.div3-2 .div3-4 a{
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 5px;
+    margin-right: 50px;
+    font-weight: 900;
+}
+.div3-4 a:hover{
+    border-bottom: 1px solid red;
+}
+
+
+
+/*----------------------DIV4-------------------*/
+
+.div4{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    top: -170px;
+    float: right;
+    padding-right: 100px;
+}
+
+.div4 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+.div4-2 a{
+    margin: 10px;
+    padding: 20px;
+    color: rgb(8, 42, 71);
+    background-color: aliceblue;
+}
+/* .div4 .span1-b1{
+    margin: 10px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 52, 74);
+} */
+
+/* .div5-1{
+    display: none;
+} */
+
+.div4-1 a:hover{
+    transition: 1s ease-in-out; 
+    background-color: aqua;
+}
+.div4-1 a,
+.div4-3 a{
+    margin: 10px;
+    padding: 20px 30px;
+    color: rgb(8, 42, 71);
+    background-color: aliceblue;
+}
+.div4-4 a{
+    margin: 10px;
+    padding: 20px;
+    color: azure;
+    background-color: rgb(175, 26, 26);
+}
+
+/*-------------------------DIV5---------------------*/
+.div5{
+    position: relative;
+    display: flex;
+    z-index: 3;
+    float: right;
+}
+
+.div5 a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+.div5-1 a{
+    bottom: -82px !important;
+    left: -539px;
+    margin: 10px;
+    padding: 20px 30px 20px 30px;
+    color: rgb(8, 42, 71);
+    background-color: rgb(175, 26, 26);
+}
+.div4 a:hover .div5-1 a,
+.div4 a:active .div5 a{
+    bottom: -10px;
+}
+.div5-2 a{
+    bottom: -83px !important;
+    left: -414px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    color: rgb(8, 42, 71);
+    background-color: rgb(175, 26, 26);
+}
+
+
+.div5-3 a{
+    bottom: -84px !important;
+    left: -283px;
+    margin: 10px;
+    padding: 20px 30px 20px 30px;
+    color: rgb(8, 42, 71);
+    background-color: rgb(175, 26, 26);
+}
+
+/*-----------------------DIV6---------------------*/
+.div6{
+    position: absolute;
+    z-index: 2;
+    bottom: 15px;
+    left: 820px;
+}
+
+.div6 input{
+    border: 2px solid rgb(173, 77, 77);
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.div6 i{
+    position: absolute;
+    top: 18px;
+    right: 13px;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+
+/*-----------------------DIV7--------------------*/
+.div7{
+    font-family: "Museo500", serif;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.div7-1 h2{
+    color: rgb(34, 34, 100);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+.div7-2 {
+    display: flex;
+    padding-top: 40px;
+}
+.div7-2a{
+    padding-right: 170px;
+}
+.div7-2b{
+    padding-right: 90px;
+}
+.div7-2 div{
+    padding-left: 40px;
+    border-left: 1px solid black;
+}
+.div7-2 h2{
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.div7-3{
+    padding-top: 50px;
+}
+/*----------------------------------------------------*/
+/*-------------------END SECTION1---------------------*/
+/*----------------------------------------------------*/
+
+
+
+
+/*---------------------SECTION2---------------------*/
+/*----------------------------------------------------*/
+/*----------------------SECTION2----------------------*/
+/*----------------------------------------------------*/
+
+.section2{
+    position: absolute;
+    width: 1140px;
+    height: 2000px;
+    background-color: rgb(234, 234, 219);
+    left: 190px;
+    margin-top: -130px;
+    border-top: 5px solid red;
+}
+
+/*---------------------DIV8a, DIV8b------------------*/
+.div8{
+    padding-left: 50px;
+    padding-top: 60px;
+    background-color: aliceblue;
+    height: 590px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 8px 0px;
+}
+.div8-1 a:hover{
+    border-bottom: 2px solid black;
+}
+.div8-1a p{
+    font-size: 30px;
+    color: rgb(41, 41, 136);
+}
+.div8-1 a{
+    font-size: 25px;
+    color: rgb(27, 12, 12);
+}
+
+
+.div8-1b{
+    display: flex;
+    padding-top: 30px;
+}
+.div8-1b i{
+    font-size: 25px;
+    color: rgb(88, 81, 177);
+}
+
+/*----------------------Phan chung----------------------*/
+
+.div8-1b-1 a{
+    margin-left: 30px;
+    
+}
+.div8-1b-2 i{
+    padding-left: 200px;
+}
+.div8-1b-2 a{
+    margin-left: 30px;
+}
+.div8-1b-3 i{
+    padding-left: 270px;
+}
+.div8-1b-3 a{
+    margin-left: 30px;
+}
+
+
+
+/*----------------------DIV8c------------------------*/
+.div8-1c-1 a{
+    margin-left: 36px;
+}
+.div8-1c-2 i{
+    padding-left: 118px;
+}
+.div8-1c-2 a{
+    margin-left: 30px;
+}
+.div8-1c-3 i{
+    padding-left: 220px;
+}
+.div8-1c-3 a{
+    margin-left: 30px;
+}
+
+
+
+/*----------------------DIV8d------------------------*/
+.div8-1d-1 a{
+    margin-left: 26px;
+}
+.div8-1d-2 i{
+    padding-left: 168px;
+}
+.div8-1d-2 a{
+    margin-left: 37px;
+}
+.div8-1d-3 i{
+    padding-left: 240px;
+}
+.div8-1d-3 a{
+    margin-left: 30px;
+}
+
+/*----------------------DIV8e------------------------*/
+.div8-1e-1 a{
+    margin-left: 32px;
+}
+.div8-1e-2 i{
+    padding-left: 204px;
+}
+.div8-1e-2 a{
+    margin-left: 34px;
+}
+.div8-1e-3 i{
+    padding-left: 179px;
+}
+.div8-1e-3 a{
+    margin-left: 28px;
+}
+
+
+
+
+/*----------------------DIV8f------------------------*/
+.div8-1f-1 a{
+    margin-left: 32px;
+}
+.div8-1f-2 i{
+    padding-left: 254px;
+}
+.div8-1f-2 a{
+    margin-left: 34px;
+}
+.div8-1f-3 i{
+    padding-left: 69px;
+}
+.div8-1f-3 a{
+    margin-left: 28px;
+}
+
+
+/*----------------------DIV8f------------------------*/
+.div8-1g-1 a{
+    margin-left: 25px;
+}
+.div8-1g-2 i{
+    padding-left: 257px;
+}
+.div8-1g-2 a{
+    margin-left: 34px;
+}
+.div8-1g-3 i{
+    padding-left: 225px;
+}
+.div8-1g-3 a{
+    margin-left: 28px;
+}
+
+
+/*----------------------DIV8f------------------------*/
+.div8-1h-1 a{
+    margin-left: 35px;
+}
+.div8-1h-2 i{
+    padding-left: 242px;
+}
+.div8-1h-2 a{
+    margin-left: 34px;
+}
+
+.them{
+    position: relative;
+    float: right;
+}
+
+
+
+
+/*----------------------------------------------*/
+/*------------------SECTION3--------------------*?
+/*----------------------------------------------*/
+.section3{
+    position: absolute;
+    margin: 0 auto;
+    left: 190px;
+    margin-top: 550px;
+}
+.div9-1 img{
+    /* background-size:500px;
+    padding-left: 190px; */
+    width: 1000px;
+    height: 550px;
+}
+.div9-2{
+    color: aliceblue;
+    position: relative;
+    width: 570px;
+    background-color: red;
+    top: -150px;
+    padding: 40px;
+    float: right;
+    right: -138px;
+}
+.div9-2 h2{
+    font-weight: 400;
+    font-size: 27px;
+}
+.div9-2 p{
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.div9-2 input{
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 550;
+    font-size: 20px;
+    border: none;
+}
+.div9-2 input:hover{
+    color: red;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 8px 0px;
+    z-index: 1;
+}
+
+
+/*---------------------------DIV10-------------------------*/
+.div10{
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+}
+.div10-1{
+    background-color: antiquewhite;
+    width: 570px;
+    padding: 90px;
+    border: 2px solid white;
+}
+.div10-1 h2{
+    color: rgb(23, 23, 99);
+    font-weight: 550;
+}
+.div10-1 p{
+    font-size: 17px;
+}
+.div10-1 a{
+    font-size: 17px;
+    color: black;
+}
+.div10-1 a:hover{
+    border-bottom: 2px solid black;
+}
+.div10-1 a i{
+    padding-left: 10px;
+    font-size: 12px;
+    color: red;
+    
+}
+.div10-1 a:hover i{
+    padding-left: 20px;
+}
+.div10-2 img{
+    background-size: cover;
+    width: 570px;
+    height: 348px;
+    float: right;
+} 
+
+
+
+
+/*---------------------------DIV11-------------------------*/
+.div11{
+    position: absolute;
+    margin-top: 630px;
+    display: flex;
+}
+.div11-1{
+    background-color: antiquewhite;
+    width: 570px;
+    padding: 90px;
+    border: 3px solid white;
+}
+.div11-1 h2{
+    color: rgb(23, 23, 99);
+    font-weight: 550;
+}
+.div11-1 p{
+    font-size: 17px;
+}
+.div11-1 a{
+    font-size: 17px;
+    color: black;
+}
+.div11-1 a:hover{
+    border-bottom: 2px solid black;
+}
+.div11-1 a i{
+    padding-left: 10px;
+    font-size: 12px;
+    color: red;
+    
+}
+.div11-1 a:hover i{
+    padding-left: 20px;
+}
+.div11-2 img{
+    background-size: cover;
+    width: 570px;
+    height: 404px;
+    float: right;
+} 
+
+
+
+
+/*----------------------------------------------*/
+/*------------------SECTION4--------------------*/
+/*----------------------------------------------*/
+
+
+.section4{
+    margin-top: 100px;
+    height: 350px;
+}
+.div12{
+    position: absolute;
+    margin-left: 190px;
+    display: flex;
+}
+.div12-1{
+    width: 570px;
+}
+
+.div12-2{
+    margin-bottom: 50px;
+}
+.div12-2 img{
+    width: 50px;
+    margin-right: 20px;
+} 
+
+.div12-1 p{
+    font-size: 17px;
+}
+.div12-1 a{
+    font-size: 17px;
+    color: black;
+}
+.div12-1 a:hover{
+    border-bottom: 2px solid black;
+}
+
+.div12-1 a i{
+    padding-left: 10px;
+    font-size: 12px;
+    color: red;
+}
+.div12-1 a:hover i{
+    padding-left: 20px;
+}
+.div12-3 img{
+    margin-top: -30px;
+    width: 570px;
+}
+.div12-4 hr{
+    width: 1519px;
+    margin-top: 350px;
+    margin-left: -1330px;
+}
+
+
+/*----------------------------------------------*/
+/*------------------SECTION5--------------------*/
+/*----------------------------------------------*/
+
+.div13{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.div13-1>ul{
+    display: flex;
+    padding-top: 30px;
+}
+.div13-1 li img{
+    width: 150px;
+}
+.div13-1 li .a1{
+    border-bottom: none;
+}
+
+.div13-1 a{
+    padding-bottom: -1.5px;
+    border-bottom: 1px solid black;
+}
+.ul1-a{
+    margin-left: 50px;
+}
+.ul1 li{
+    padding-bottom: 20px;
+}
+.ul1 li a{
+    color: black;
+    font-size: 15px;
+}
+
+.div13-1 .li2{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 16px;
+}
+.div13-1 .li2>a{
+    color: black;
+    font-weight: 550;
+}
+
+
+/*--------------------------UL---------------------*/
+.ul1-b{
+    padding-top: 30px;
+    width: 152px;
+}
+
+
+
+
+.div13-1 .li3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.ul1-c{
+    padding-top: 30px;
+    width: 130px;
+}
+.div13-1 .li3>a{
+    color: black;
+    font-weight: 550;
+}
+
+
+
+.div13-1 .li4{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ul1-d{
+    width: 170px;
+    padding-top: 30px;
+}
+.div13-1 .li4>a{
+    color: black;
+    font-weight: 550;
+}
+
+
+
+
+
+.div13-1 .li5{
+    padding-top: 30px;
+    padding-left: 0px;
+    width: 230px;
+}
+.ul1-e{
+    padding-top: 30px;
+}
+.div13-1 .li5>a{
+    color: black;
+    font-weight: 550;
+}
+
+
+
+
+
+.div13-1 .li6{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 300px;
+}
+.ul1-f{
+    padding-top: 30px;
+}
+.div13-1 .li6>a{
+    color: black;
+    font-weight: 550;
+}
+
+
+.div13-1 a:hover{
+    border-bottom: none;
+}
+
+/*------------------------------------------------*/
+.div13 hr{
+    margin-top: -20px;
+}
+.div14{
+    padding-top: 30px;
+    display: flex;
+}
+.div14-1{
+    width: 810px;
+}
+.div14-1 a{
+    color: black;
+}
+.div14-1 a:hover{
+    border-bottom: 1px solid black;
+}
+.div14-2{
+    padding-left: 120px;
+}
+.div14-2 i{
+    padding-left: 15px;
+}
+
